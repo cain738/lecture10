@@ -1,0 +1,160 @@
+.work{
+
+    width: 50%;
+    position: absolute;
+    left: 15%;
+}
+.projects{
+       background-color: aqua;
+    height: 300px;
+}
+.academicSkills{
+       background-color: blanchedalmond;
+    height: 300px;
+}
+.acadncurractivities{
+       background-color: darkgreen;
+    height: 300px;
+}
+.myinfo{
+    position: absolute;
+    width: 25%;
+    left: 65%;
+}
+.image{
+    background-color: darkred;
+    height: 350px;
+}
+.mylinks{
+    background-color: fuchsia;
+    height: 300px;
+}
+.intrest{
+    background-color: lawngreen;
+    height: 250px;
+}
+.navbar{
+    display: none;
+
+}
+.pronav{
+    position:absolute;
+    width: 33%;
+    left: 0%;
+    text-align: center;
+    height: 50px;
+    background-color: #f2f7f7;
+}
+.pronav:hover + .prodes{
+    display: block;
+    width: 90%;
+    background-color: plum;
+    height: 300px;
+    top: 50px;
+    position: absolute;
+    transition: 0.8s;
+}
+.acadnav{
+    position:absolute;
+    width: 33%;
+    left: 33%;
+    text-align: center;
+    height: 50px;
+    background-color: darkolivegreen;
+}
+.acadnav:hover + .acaddes{
+    display: block;
+    width: 90%;
+    background-color: lavenderblush;
+    height: 300px;
+    top: 50px;
+    left: 4%;
+    transition: 0.8s;
+    position: absolute;
+}
+.wenav{
+    position:absolute;
+    width: 33%;
+    left: 66%;
+    text-align: center;
+    height: 50px;
+    background-color: #d3e4e5;
+}
+.wenav:hover + .wedes{
+    display: block;
+    width: 90%;
+    background-color: lightcoral;
+    height: 300px;
+    top: 50px;
+    right: 0%;
+    transition: 0.8s;
+    position: absolute;
+}
+
+@media only screen and (max-width: 720px) and (min-width: 240px) {
+    .myinfo{
+        position: absolute;
+        width: 66%;
+        left: 18%;
+    }
+    .image{
+        background-color: darkred;
+        height: 350px;
+    }
+    .mylinks{
+        background-color: fuchsia;
+        height: 300px;
+    }
+    .intrest{
+        background-color: lawngreen;
+        height: 250px;
+    }
+    .navbar{
+        height: 50px;
+        z-index: 100;
+        display: block;
+        position: fixed;
+        width: 100%;
+        top: 3%;
+        background-color: darkviolet;
+    }
+    .work{
+        display: none;
+    }
+}
+@media only screen and (max-width: 1080px) and (min-width: 720px)
+{
+    .myinfo{
+        width: 90%;
+        left: 5%;
+        top: 5%;
+        position: relative;
+    }
+    .image{
+        position: absolute;
+        width: 38.33%;
+        height: 220px;
+        top: 0%;
+        left: 0%;
+    }
+    .mylinks{
+        position: absolute;
+        width: 27.33%;
+        height: 220px;
+        top: 0%;
+        left: 38.33%;
+    }
+    .intrest{
+        position: absolute;
+        width: 33.33%;
+        height: 220px;
+        top: 0%;
+        left: 65.66%;
+    }
+    .work{
+        display: block;
+        width: 90%;
+        top: 228px;
+        left: 4.65%;
+    }
+}
