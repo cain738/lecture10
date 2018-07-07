@@ -7,14 +7,39 @@
 .projects{
        background-color: aqua;
     height: 300px;
+    position: relative;
 }
 .academicSkills{
        background-color: blanchedalmond;
     height: 300px;
+    position: relative;
 }
 .acadncurractivities{
        background-color: darkgreen;
     height: 300px;
+    position: relative;
+}
+.we1{
+    position: absolute;
+    top: 1%;
+}
+.pr1{
+    position: absolute;
+    top: 1%;
+}
+.as1{
+    position: absolute;
+    top: 1%;
+}
+.table{
+    position: relative;
+}
+.progress1{
+    position:absolute;
+    width: 100%;
+    background-color: darkblue;
+    height: 20px;
+    border-radius: 5%;
 }
 .myinfo{
     position: absolute;
@@ -24,14 +49,29 @@
 .image{
     background-color: darkred;
     height: 350px;
+    position: relative;
 }
 .mylinks{
     background-color: fuchsia;
     height: 300px;
+    position: relative;
 }
 .intrest{
     background-color: lawngreen;
     height: 250px;
+    position: relative;
+}
+.link1{
+    position: absolute;
+    top: 1%;
+}
+.intrest1{
+    position: absolute;
+    top: 1%;
+}
+.img1{
+    width: 200px;
+    height: 200px;
 }
 .navbar{
     display: none;
@@ -44,6 +84,9 @@
     text-align: center;
     height: 50px;
     background-color: #f2f7f7;
+}
+.prodes{
+    display: none;
 }
 .pronav:hover + .prodes{
     display: block;
@@ -61,6 +104,9 @@
     text-align: center;
     height: 50px;
     background-color: darkolivegreen;
+}
+.acaddes{
+    display: none;
 }
 .acadnav:hover + .acaddes{
     display: block;
@@ -80,6 +126,9 @@
     height: 50px;
     background-color: #d3e4e5;
 }
+.wedes{
+display: none;
+}
 .wenav:hover + .wedes{
     display: block;
     width: 90%;
@@ -90,6 +139,7 @@
     transition: 0.8s;
     position: absolute;
 }
+
 
 @media only screen and (max-width: 720px) and (min-width: 240px) {
     .myinfo{
