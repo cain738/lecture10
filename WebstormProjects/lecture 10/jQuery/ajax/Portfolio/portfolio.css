@@ -73,6 +73,10 @@
     width: 200px;
     height: 200px;
 }
+.name{
+    position :absolute;
+    bottom:1%;
+}
 .navbar{
     display: none;
 
