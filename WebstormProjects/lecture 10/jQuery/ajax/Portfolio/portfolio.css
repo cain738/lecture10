@@ -1,3 +1,7 @@
+.back{
+    z-index: 1;
+    position: relative;
+}
 .work{
 
     width: 50%;
@@ -5,17 +9,17 @@
     left: 15%;
 }
 .projects{
-       background-color: aqua;
+
     height: 300px;
     position: relative;
 }
 .academicSkills{
-       background-color: blanchedalmond;
+
     height: 300px;
     position: relative;
 }
 .acadncurractivities{
-       background-color: darkgreen;
+
     height: 300px;
     position: relative;
 }
@@ -47,17 +51,17 @@
     left: 65%;
 }
 .image{
-    background-color: darkred;
+    background-color: skyblue;
     height: 350px;
     position: relative;
 }
 .mylinks{
-    background-color: fuchsia;
+    background-color: deepskyblue;
     height: 300px;
     position: relative;
 }
 .intrest{
-    background-color: lawngreen;
+    background-color: lightskyblue;
     height: 250px;
     position: relative;
 }
@@ -87,7 +91,7 @@
     left: 0%;
     text-align: center;
     height: 50px;
-    background-color: #f2f7f7;
+    background-color: lightgreen;
 }
 .prodes{
     display: none;
@@ -107,7 +111,7 @@
     left: 33%;
     text-align: center;
     height: 50px;
-    background-color: darkolivegreen;
+    background-color:lawngreen;
 }
 .acaddes{
     display: none;
@@ -128,7 +132,7 @@
     left: 66%;
     text-align: center;
     height: 50px;
-    background-color: #d3e4e5;
+    background-color: green;
 }
 .wedes{
 display: none;
@@ -152,15 +156,15 @@ display: none;
         left: 18%;
     }
     .image{
-        background-color: darkred;
+        background-color: skyblue;
         height: 350px;
     }
     .mylinks{
-        background-color: fuchsia;
+        background-color: deepskyblue;
         height: 300px;
     }
     .intrest{
-        background-color: lawngreen;
+        background-color: lightskyblue;
         height: 250px;
     }
     .navbar{
@@ -170,7 +174,6 @@ display: none;
         position: fixed;
         width: 100%;
         top: 3%;
-        background-color: darkviolet;
     }
     .work{
         display: none;
